@@ -8,13 +8,27 @@
     box-sizing: border-box;
 }
 
+.container-site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 header{
     background-color: #00143d;
+    width: 100%;
+}
+
+header img{
+    width: 243px;
+    height: 96px;
 }
 
 .container-margin{
-    width: 1550;
-    margin: 0 130px;
+    width: 100%;
+    margin: 0 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +43,7 @@ header{
 
 .box-titulo{
     border-bottom: 6px solid #E5E5E5;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +70,7 @@ header{
 .box-noticia{
     font-family: 'Roboto', sans-serif;
     border-bottom: 8px solid #002978;
-    width: 100%;
+    width: 70%;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -76,6 +90,10 @@ header{
 
 .container-saiba-mais{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-saiba-mais h2{
@@ -85,7 +103,7 @@ header{
 
 .hr-saiba-mais{
     border: 3px solid #FF4141;
-    width: 25%;
+    width: 100%;
 }
 
 .box-saiba-mais{
@@ -117,6 +135,7 @@ header{
 
 .hr-divisoria{
     border: 5px solid #002978;
+    width: 70%;
 }
 
 footer{
